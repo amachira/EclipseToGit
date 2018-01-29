@@ -2,6 +2,7 @@ package JavaCode;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,6 +21,15 @@ public static void main(String args[])
  
 	Collections.reverse(revList);
 	System.out.println(revList);
+	Iterator it =  revList.iterator();
+	while(it.hasNext())
+	{
+		System.out.print(it.next());
+		
+	}
+	
+	
+	
 	
 }
 }
